@@ -1,0 +1,69 @@
+# Visual Studio
+.vs/
+*.VC.db
+*.VC.opendb
+*.suo
+*.opensdf
+*.sdf
+
+# Generated project files
+*.sln
+*.xcodeproj
+*.xcworkspace
+
+# Compiled Object files
+*.obj
+*.o
+*.lo
+*.slo
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lai
+*.so
+*.dylib
+*.dll
+
+# Executables
+*.exe
+*.out
+*.app
+*.ipa
+
+# Unreal Engine Generated
+Binaries/
+Plugins/**/Binaries/
+
+Build/*
+!Build/*/
+Build/*/**
+!Build/*/PakBlacklist*.txt
+!Build/**/*.ico
+
+Saved/
+Intermediate/
+Plugins/**/Intermediate/
+DerivedDataCache/
+
+# Packaged builds (중요)
+Package/
+*.apk
+*.aab
+*.obb
+*.ipa
+*.pak
+
+# Built map data
+*_BuiltData.uasset
+
+# Source Art
+SourceArt/**/*.png
+SourceArt/**/*.tga
+
+# Optional
+.DS_Store
+Thumbs.db
